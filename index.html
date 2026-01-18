@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>All About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>All About Me</h1>
+
+    <div class="grid">
+
+        <div class="box">
+            <h3>My Hobbies</h3>
+            <textarea placeholder="Tulis hobi kamu..." onkeyup="inputKeyUp()"></textarea>
+        </div>
+
+        <div class="box">
+            <h3>Identity</h3>
+            <input type="text" id="name" placeholder="Name" onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Age" onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Address" onkeyup="inputKeyUp()">
+        </div>
+
+        <div class="box pink">
+            <h3>Fun Facts About Me</h3>
+            <textarea placeholder="Fakta unik tentang kamu..." onkeyup="inputKeyUp()"></textarea>
+
+            <h3 style="margin-top:8px;">Likes</h3>
+            <textarea placeholder="Hal-hal yang kamu sukai..." onkeyup="inputKeyUp()"></textarea>
+        </div>
+
+        <div class="box">
+            <h3>My Favorite</h3>
+
+            <input type="text" placeholder="Color"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Food"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Drinks"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Animal"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Song"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Season"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Place"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Sports"onkeyup="inputKeyUp()">
+            <input type="text" placeholder="Subject"onkeyup="inputKeyUp()">
+        </div>
+
+    </div>
+
+    <div class="long-box">
+        <h3>When I Grow Up I Want To Be</h3>
+        <textarea placeholder="Cita-cita kamu..." onkeyup="inputKeyUp()"></textarea>
+    </div>
+
+    <button onclick="clickButton()">Submit 💕</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
